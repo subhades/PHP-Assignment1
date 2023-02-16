@@ -1,0 +1,44 @@
+/*colors: purple #E040FB, grey-ish #CFD8DC, off-white #f4f4f4, blue/green #00796B 
+Amanda Robinson 
+    1181969
+    PHP-A1
+    Feb-15-2023*/
+
+body {
+    margin:0px;
+    background-color: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 80%;
+    padding: 3px;
+}
+
+h1{
+    color:#00796B;
+}
+
+th{
+    background:#E040FB;
+    color: #f4f4f4;
+    font-size: large;
+    padding:3px;
+}
+
+th:hover{
+    cursor:pointer;
+    background-color: #76058a;
+}
+
+tbody tr:nth-child(even){
+    background-color: #CFD8DC;
+}
+
+.button-add{
+    width: 40px;
+    height:20px;
+    background: #00796B;
+    color: #f4f4f4;
+}

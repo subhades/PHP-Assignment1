@@ -1,0 +1,34 @@
+1.	Document each section of your PHP scripts with comments.  You do not need to document every single line.
+
+2.	Create 2 tables in your AWS database - 1 to store the user inputs from your HTML form and 1 used to populate a dropdown list you need on your input form
+
+3.	Create a minimum of 1 input form that includes:
+    a.	Input controls for each of the field in your database table listed above
+    b.	At least 1 dropdown list that is populated from a table in your database (this means the page will need a .php extension)
+    c.	Proper HTML5 input validation in your form controls
+
+4.	Create a PHP page that accepts a form POST from #3 above.  The PHP page should:
+    a.	Verify that values have been entered in each field and show a message to the user about any missing inputs
+    b.	Save the data to the database if all the input data is valid
+
+5.	Create a PHP page that shows data from the database in an HTML table.  
+
+6.	Deploy your site to the AWS web server
+
+7.	Commit your code to a private GitHub repository:
+    a.	Invite me – ifotn – as a collaborator
+    b.	Show a minimum of 2 commits, each with a descriptive name (not “Commit 1”, “Commit 2”, etc.)
+    c.	Create a README.md file that describes what your application does and includes a link to the live web site
+
+I am going to create a book tracker 
+It will ask for the title of the book (text)
+The author (text)
+the page number (number scroll)
+and the raiting (worded scroll) 
+
+it will then save - I want to try to get it to automatically load to the book tab, but I may just creat a button
+I will also create a "add new" button. 
+I am going to use similar namming conventions that are used in class for the name of the files as they make the most sense
+
+*If I can manage - or possibly for a future personal project, I will get it to also have an update section
+So itll take the information needed for the book, and then in the future you can update progress! 
